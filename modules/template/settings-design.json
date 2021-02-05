@@ -1,0 +1,88 @@
+{
+    "application": {
+        "identifier": "<APPLICATION-SIGNED-IDENTIFIER>",
+        "version": "1.0",
+        "package": {
+            "type": "internal | external"
+        }
+    },
+    "editor": {
+        "identifier": "<EDITOR(PERSON)-IDENTIFIER>",
+        "privateKey": "<EDITOR-PRIVATE-API-KEY>"
+    },
+    "module": {
+        "internal": {
+            "identifier": "package-name",
+            "class": "packageName",
+            "version": "1.0",
+            "tag": "stable | snapshot",
+            "build": {
+                "type": "internal | external",
+                "path": "<PATH-TO-MODULE-IN-MODULES-VIEW>"
+            }
+        },
+        "name": "Template Module",
+        "description": "This is the template module for creating modules with Editor Application.",
+        "author": {
+            "name": "Carlos Pomares",
+            "website": "https://carlospomares.es"
+        },
+        "repository": "path/to/exercices",
+        "tasks": [
+            {
+                "type": "container",
+                "name": "HTML",
+                "description": "This is the template module for creating modules with Editor Application.",
+                "data": [
+                    {
+                        "type": "task",
+                        "name": "Propuesta 1",
+                        "description": "This is the template module for creating modules with Editor Application.",
+                        "path": {
+                            "origin": "path/to/task",
+                            "index": "index.html",
+                            "source": "source.txt"
+                        }
+                    },
+                    {
+                        "type": "task",
+                        "name": "Propuesta 2",
+                        "description": "This is the template module for creating modules with Editor Application.",
+                        "path": {
+                            "origin": "path/to/task",
+                            "index": "index.html",
+                            "source": "source.txt"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "container",
+                "name": "XML",
+                "description": "This is the template module for creating modules with Editor Application.",
+                "data": [
+                    {
+                        "type": "task",
+                        "name": "Propuesta 1",
+                        "description": "This is the template module for creating modules with Editor Application.",
+                        "path": {
+                            "origin": "path/to/task",
+                            "index": "index.html",
+                            "source": "source.txt"
+                        }
+                    },
+                    {
+                        "type": "task",
+                        "name": "Propuesta 2",
+                        "description": "This is the template module for creating modules with Editor Application.",
+                        "path": {
+                            "origin": "path/to/task",
+                            "index": "index.html",
+                            "source": "source.txt"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

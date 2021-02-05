@@ -1,17 +1,19 @@
 ## Taskvisor
-![First version](http://tasks.carlospomares.es)
+[First version](http://tasks.carlospomares.es)
 
 ### Table of contents
 
-1. ![Idea](#idea)
-2. ![Tecnologies](#tecnologies)
-3. ![Actual build](#actual-build)
-4. ![Future ideas](#future-ideas)
-5. ![Usage](#usage)
+1. [Idea](#idea)
+2. [Tecnologies](#tecnologies)
+3. [Actual build](#actual-build)
+4. [Future ideas](#future-ideas)
+5. [Usage](#usage)
 
 ### Idea
 
 This project was originaly thought for resolve a common problem in my daily workflow in colege tasks, the way to send the exercices to the teacher was with .ZIP files, in that way the teacher has to download, decompress, and go throught all the subdirectories and open each .HTML related to the exercice, for that reason I had an idea to export all my tasks in a way that my teacher only with an Web Application, based in client only, needn't an internet connection, without files in cloud, all in his computer, and that previusly .ZIP files named as "modules", that the teacher only has to download the module and move to the modules/ folder in the app directory. With the app the teacher can go throught that modules and see the tasks that contains, with a preview tool, that the user can see the result of the .HTML with an embed element, and a raw .HTML view, that can view the source code.
+
+![Preview](https://github.com/pomaretta/taskvisor/blob/master/preview.png)
 
 ### Tecnologies
 

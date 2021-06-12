@@ -18,7 +18,7 @@ _registerConfiguration(this,"applicationSettings",
   application: {
     name: 'Taskvisor',
     identifier: 'development',
-    version: '20210205',
+    version: '1.0',
     metadata: [
       {
         name: 'head',

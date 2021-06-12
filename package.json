@@ -1,0 +1,24 @@
+{
+  "name": "taskvisor",
+  "version": "0.1.0",
+  "description": "Tasks reviewer for HTML exercices.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomaretta/taskvisor.git"
+  },
+  "author": "Carlos Pomares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pomaretta/taskvisor/issues"
+  },
+  "homepage": "https://github.com/pomaretta/taskvisor#readme",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "jest": "^27.0.4"
+  }
+}
